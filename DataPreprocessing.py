@@ -10,13 +10,11 @@ import numpy as np
 from numpy import nan as NA
 from sklearn.preprocessing import LabelEncoder
 
-
 """
 Ignore all warning info.
 """
 def ignoreWarning():
 	warnings.filterwarnings("ignore")
-
 
 """
 1、判断特征的类型，连续型 or 离散型
